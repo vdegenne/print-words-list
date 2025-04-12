@@ -1,0 +1,15 @@
+:host {
+	display: flex;
+	flex-direction: column;
+}
+
+@media print {
+	* {
+		display: none;
+	}
+
+	#a4,
+	#a4 * {
+		display: block !important;
+	}
+}
